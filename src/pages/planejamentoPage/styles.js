@@ -18,7 +18,7 @@ export const ProfessorFirstTable = styled.div`
     width: 18%;
     height: 7%;
     border: 2px solid #c4c4c4;
-    border-radius: 20px 0 0 20px;
+    border-radius: 10px 0 0 10px;
     background-color: rgb(44, 110, 201);
     top: 30%;
     left: 37.7%;
@@ -37,8 +37,8 @@ export const ProfessorSecondTable = styled.div`
     height: 7%;
     left: 58.1%;
     border: 2px solid #c4c4c4;
-    background-color: rgb(255, 249, 222);
-    border-radius: 0px 20px 20px 0px;
+    background-color: #f6f4f0;
+    border-radius: 0px 10px 10px 0px;
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: large;
@@ -74,7 +74,7 @@ export const MateriaFirstTable = styled.div`
     width: 18%;
     height: 7%;
     border: 2px solid #c4c4c4;
-    border-radius: 20px 0 0 20px;
+    border-radius: 10px 0 0 10px;
     background-color: rgb(44, 110, 201);
     top: 40%;
     left: 37.7%;
@@ -93,8 +93,8 @@ export const MateriaSecondTable = styled.div`
     height: 7%;
     left: 58.1%;
     border: 2px solid #c4c4c4;
-    background-color: rgb(255, 249, 222);
-    border-radius: 0px 20px 20px 0px;
+    background-color: #f6f4f0;
+    border-radius: 0px 10px 10px 0px;
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: large;
@@ -108,7 +108,7 @@ export const NivelFirstTable = styled.div`
     width: 18%;
     height: 7%;
     border: 2px solid #c4c4c4;
-    border-radius: 20px 0 0 20px;
+    border-radius: 10px 0 0 10px;
     background-color: rgb(44, 110, 201);
     top: 50%;
     left: 37.7%;
@@ -127,8 +127,8 @@ export const NivelSecondTable = styled.div`
     height: 7%;
     left: 58.1%;
     border: 2px solid #c4c4c4;
-    background-color: rgb(255, 249, 222);
-    border-radius: 0px 20px 20px 0px;
+    background-color: #f6f4f0;
+    border-radius: 0px 10px 10px 0px;
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: large;
@@ -142,7 +142,7 @@ export const ConteudoFirstTable = styled.div`
     width: 24.5%;
     height: 7%;
     border: 2px solid #c4c4c4;
-    border-radius: 20px 0 0 20px;
+    border-radius: 10px 0 0 10px;
     background-color: #4585B9;
     top: 63%;
     left: 34.4%;
@@ -162,7 +162,7 @@ export const ConteudoSecondTable = styled.div`
     left: 62.6%;
     border: 2px solid #c4c4c4;
     background-color: rgb(255, 249, 222);
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 10px 10px 0px;
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: large;
@@ -176,7 +176,7 @@ export const MetodologiaFirstTable = styled.div`
     width: 24.5%;
     height: 7%;
     border: 2px solid #c4c4c4;
-    border-radius: 20px 0 0 20px;
+    border-radius: 10px 0 0 10px;
     background-color: #4585B9;
     top: 73%;
     left: 34.4%;
@@ -196,7 +196,7 @@ export const MetodologiaSecondTable = styled.div`
     left: 62.6%;
     border: 2px solid #c4c4c4;
     background-color: rgb(255, 249, 222);
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 10px 10px 0px;
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: large;
@@ -210,7 +210,7 @@ export const CronogramaFirstTable = styled.div`
     width: 24.5%;
     height: 7%;
     border: 2px solid #c4c4c4;
-    border-radius: 20px 0 0 20px;
+    border-radius: 10px 0 0 10px;
     background-color: #4585B9;
     top: 83%;
     left: 34.4%;
@@ -230,7 +230,7 @@ export const CronogramaSecondTable = styled.div`
     left: 62.6%;
     border: 2px solid #c4c4c4;
     background-color: rgb(255, 249, 222);
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 10px 10px 0px;
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: large;
@@ -244,7 +244,7 @@ export const AvaliacaoFirstTable = styled.div`
     width: 24.5%;
     height: 7%;
     border: 2px solid #c4c4c4;
-    border-radius: 20px 0 0 20px;
+    border-radius: 10px 0 0 10px;
     background-color: #4585B9;
     top: 93%;
     left: 34.4%;
@@ -264,7 +264,7 @@ export const AvaliacaoSecondTable = styled.div`
     left: 62.6%;
     border: 2px solid #c4c4c4;
     background-color: rgb(255, 249, 222);
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 10px 10px 0px;
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: large;
@@ -278,7 +278,7 @@ export const ReferenciaFirstTable = styled.div`
     width: 24.5%;
     height: 7%;
     border: 2px solid #c4c4c4;
-    border-radius: 20px 0 0 20px;
+    border-radius: 10px 0 0 10px;
     background-color: #4585B9;
     top: 103%;
     left: 34.4%;
@@ -298,7 +298,7 @@ export const ReferenciaSecondTable = styled.div`
     left: 62.6%;
     border: 2px solid #c4c4c4;
     background-color: rgb(255, 249, 222);
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 10px 10px 0px;
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: large;

@@ -21,9 +21,9 @@ function homePage({history}) {
                             <ul>
                                 <li><IoIosCalendar class="icon" /> <a href="/Planejamento">PLANEJAMENTO DE AULAS</a></li>
                                 <li><IoIosCreate class="icon" /> <a href="/EntregaAtividade">CRIAÇÃO E ENTREGA DE ATIVIDADES</a></li>
-                                <li><IoIosChatbubbles class="icon" /> <a href="/Chat">CHAT</a></li>
-                                <li><IoIosBookmarks class="icon" /> <a href="/ListaAtividade">TRABALHOS, PROVAS E ATIVIDADES</a></li>
+                                <li><IoIosBookmarks class="icon" /> <a href="/ListaAtividade">TRABALHOS, PROVAS E EXERCÍCIOS</a></li>
                                 <li><IoIosJournal class="icon" /> <a href="/MaterialDidatico">MATERIAL DIDÁTICO</a></li>
+                                <li><IoIosChatbubbles class="icon" /> <a href="/Chat">CHAT</a></li>
                             </ul>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ function homePage({history}) {
                 </div>
                 <img src="/images/profile2.png" class="profile-image" alt="" />
                 <div class="container showcase-outer">
-                    <p>Bem-Vindo, Thales</p>
+                    <p>Bem-vindo, Thales</p>
                 </div>
 
                 <button>
