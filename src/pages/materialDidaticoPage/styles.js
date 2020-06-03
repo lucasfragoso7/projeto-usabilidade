@@ -17,7 +17,8 @@ export const CardDead = styled.div`
     background-color: #fff;
     border-style: solid;
     padding: 0%;
-    border-color: #4585B9
+    border-color: #4585B9;
+    align-items: center;
 `;
 
 export const CardTitle = styled.div`

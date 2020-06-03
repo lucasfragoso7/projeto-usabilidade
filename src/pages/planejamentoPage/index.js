@@ -30,7 +30,7 @@ function planejamentoPage({ history }) {
             </NivelFirstTable>
 
             <NivelSecondTable>
-                <TextTableTwo>Básico e Intermediário</TextTableTwo>
+                <TextTableTwo>Básico</TextTableTwo>
             </NivelSecondTable>
 
             <ConteudoFirstTable>

@@ -13,16 +13,15 @@ export const MainTitle = styled.div`
 `;
 
 export const ProfessorFirstTable = styled.div`
-    margin: 0;
-    padding: 35px;
-    width: 250px;
-    height: 20px;
+    padding: 2.5%;
+    position: absolute;
+    width: 18%;
+    height: 7%;
     border: 2px solid #c4c4c4;
     border-radius: 20px 0 0 20px;
-    background-color: rgb(36, 50, 90, 0.9);
+    background-color: rgb(44, 110, 201);
     top: 30%;
-    left: 145mm;
-    position: absolute;
+    left: 37.7%;
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: large;
@@ -30,19 +29,20 @@ export const ProfessorFirstTable = styled.div`
 `;
 
 export const ProfessorSecondTable = styled.div`
-    width: 350px;
-    height: 20px;
-    border: 2px solid #c4c4c4;
-    border-radius: 0 20px 20px 0;
-    background-color: rgb(255, 249, 222);
-    top: 30%;
-    left: 224mm;
     position: absolute;
+    padding: 2.5%;
+    position: absolute;
+    top: 30%;
+    width: 23%;
+    height: 7%;
+    left: 58.1%;
+    border: 2px solid #c4c4c4;
+    background-color: rgb(255, 249, 222);
+    border-radius: 0px 20px 20px 0px;
     transform: translate(-50%, -50%);
-    padding: 35px;
     text-align: center;
-    font-size: 22px;
-    color: #FFF;
+    font-size: large;
+    color: #FFF;    
 `;
 
 export const TitleText = styled.h1`
@@ -54,240 +54,255 @@ export const TitleText = styled.h1`
     border-bottom-color: #C4C4C4;
 `;
 
-export const TextTableOne = styled.h2`
-    margin-top: -16px;
+export const TextTableOne = styled.h3`
+    margin-top: -7%;
     font-weight: normal;
+    font-size: 1.4em;
 `;
 
 export const TextTableTwo = styled.h3`
-    margin-top: -12px;
+    margin-top: -4%;
     font-weight: normal;
     color: #2b2b2b;
     font-size: 20px;
 `;
 
 export const MateriaFirstTable = styled.div`
-    width: 250px;
-    height: 20px;
+    margin: 0;
+    padding: 2.5%;
+    position: absolute;
+    width: 18%;
+    height: 7%;
     border: 2px solid #c4c4c4;
     border-radius: 20px 0 0 20px;
-    background-color: rgb(36, 50, 90, 0.9);
+    background-color: rgb(44, 110, 201);
     top: 40%;
-    left: 145mm;
-    position: absolute;
+    left: 37.7%;
     transform: translate(-50%, -50%);
-    padding: 35px;
     text-align: center;
     font-size: large;
     color: #FFF;
 `;
 
 export const MateriaSecondTable = styled.div`
-    width: 350px;
-    height: 20px;
-    border: 2px solid #c4c4c4;
-    border-radius: 0 20px 20px 0;
-    background-color: rgb(255, 249, 222);
-    top: 40%;
-    left: 224mm;
     position: absolute;
+    padding: 2.5%;
+    position: absolute;
+    top: 40%;
+    width: 23%;
+    height: 7%;
+    left: 58.1%;
+    border: 2px solid #c4c4c4;
+    background-color: rgb(255, 249, 222);
+    border-radius: 0px 20px 20px 0px;
     transform: translate(-50%, -50%);
-    padding: 35px;
     text-align: center;
-    font-size: 22px;
-    color: #FFF;
+    font-size: large;
+    color: #FFF; 
 `;
 
 export const NivelFirstTable = styled.div`
-    width: 250px;
-    height: 20px;
+    margin: 0;
+    padding: 2.5%;
+    position: absolute;
+    width: 18%;
+    height: 7%;
     border: 2px solid #c4c4c4;
     border-radius: 20px 0 0 20px;
-    background-color: rgb(36, 50, 90, 0.9);
+    background-color: rgb(44, 110, 201);
     top: 50%;
-    left: 145mm;
-    position: absolute;
+    left: 37.7%;
     transform: translate(-50%, -50%);
-    padding: 35px;
     text-align: center;
     font-size: large;
     color: #FFF;
 `;
 
 export const NivelSecondTable = styled.div`
-    width: 350px;
-    height: 20px;
-    border: 2px solid #c4c4c4;
-    border-radius: 0 20px 20px 0;
-    background-color: rgb(255, 249, 222);
-    top: 50%;
-    left: 224mm;
     position: absolute;
+    padding: 2.5%;
+    position: absolute;
+    top: 50%;
+    width: 23%;
+    height: 7%;
+    left: 58.1%;
+    border: 2px solid #c4c4c4;
+    background-color: rgb(255, 249, 222);
+    border-radius: 0px 20px 20px 0px;
     transform: translate(-50%, -50%);
-    padding: 35px;
     text-align: center;
-    font-size: 22px;
-    color: #FFF;
+    font-size: large;
+    color: #FFF; 
 `;
 
 export const ConteudoFirstTable = styled.div`
-    width: 350px;
-    height: 20px;
+    margin: 0;
+    padding: 2.5%;
+    position: absolute;
+    width: 24.5%;
+    height: 7%;
     border: 2px solid #c4c4c4;
     border-radius: 20px 0 0 20px;
-    background-color: rgb(44, 110, 201);
+    background-color: #4585B9;
     top: 63%;
-    left: 131.4mm;
-    position: absolute;
+    left: 34.4%;
     transform: translate(-50%, -50%);
-    padding: 35px;
     text-align: center;
     font-size: large;
     color: #FFF;
 `;
 
 export const ConteudoSecondTable = styled.div`
-    width: 450px;
-    height: 20px;
-    border: 2px solid #c4c4c4;
-    border-radius: 0 20px 20px 0;
-    background-color: rgb(255, 249, 222);
-    top: 63%;
-    left: 237mm;
     position: absolute;
+    padding: 2.5%;
+    position: absolute;
+    top: 63%;
+    width: 32%;
+    height: 7%;
+    left: 62.6%;
+    border: 2px solid #c4c4c4;
+    background-color: rgb(255, 249, 222);
+    border-radius: 0px 20px 20px 0px;
     transform: translate(-50%, -50%);
-    padding: 35px;
     text-align: center;
-    font-size: 22px;
-    color: #FFF;
+    font-size: large;
+    color: #FFF; 
 `;
 
 export const MetodologiaFirstTable = styled.div`
-    width: 350px;
-    height: 20px;
+    margin: 0;
+    padding: 2.5%;
+    position: absolute;
+    width: 24.5%;
+    height: 7%;
     border: 2px solid #c4c4c4;
     border-radius: 20px 0 0 20px;
-    background-color: rgb(44, 110, 201);
+    background-color: #4585B9;
     top: 73%;
-    left: 131.4mm;
-    position: absolute;
+    left: 34.4%;
     transform: translate(-50%, -50%);
-    padding: 35px;
     text-align: center;
     font-size: large;
     color: #FFF;
 `;
 
 export const MetodologiaSecondTable = styled.div`
-    width: 450px;
-    height: 20px;
-    border: 2px solid #c4c4c4;
-    border-radius: 0 20px 20px 0;
-    background-color: rgb(255, 249, 222);
-    top: 73%;
-    left: 237mm;
     position: absolute;
+    padding: 2.5%;
+    position: absolute;
+    top: 73%;
+    width: 32%;
+    height: 7%;
+    left: 62.6%;
+    border: 2px solid #c4c4c4;
+    background-color: rgb(255, 249, 222);
+    border-radius: 0px 20px 20px 0px;
     transform: translate(-50%, -50%);
-    padding: 35px;
     text-align: center;
-    font-size: 22px;
+    font-size: large;
     color: #FFF;
 `;
 
 export const CronogramaFirstTable = styled.div`
-    width: 350px;
-    height: 20px;
+    margin: 0;
+    padding: 2.5%;
+    position: absolute;
+    width: 24.5%;
+    height: 7%;
     border: 2px solid #c4c4c4;
     border-radius: 20px 0 0 20px;
-    background-color: rgb(44, 110, 201);
+    background-color: #4585B9;
     top: 83%;
-    left: 131.4mm;
-    position: absolute;
+    left: 34.4%;
     transform: translate(-50%, -50%);
-    padding: 35px;
     text-align: center;
     font-size: large;
     color: #FFF;
 `;
 
 export const CronogramaSecondTable = styled.div`
-    width: 450px;
-    height: 20px;
-    border: 2px solid #c4c4c4;
-    border-radius: 0 20px 20px 0;
-    background-color: rgb(255, 249, 222);
-    top: 83%;
-    left: 237mm;
     position: absolute;
+    padding: 2.5%;
+    position: absolute;
+    top: 83%;
+    width: 32%;
+    height: 7%;
+    left: 62.6%;
+    border: 2px solid #c4c4c4;
+    background-color: rgb(255, 249, 222);
+    border-radius: 0px 20px 20px 0px;
     transform: translate(-50%, -50%);
-    padding: 35px;
     text-align: center;
-    font-size: 22px;
-    color: #FFF;
+    font-size: large;
+    color: #FFF; 
 `;
 
 export const AvaliacaoFirstTable = styled.div`
-    width: 350px;
-    height: 20px;
+    margin: 0;
+    padding: 2.5%;
+    position: absolute;
+    width: 24.5%;
+    height: 7%;
     border: 2px solid #c4c4c4;
     border-radius: 20px 0 0 20px;
-    background-color: rgb(44, 110, 201);
+    background-color: #4585B9;
     top: 93%;
-    left: 131.4mm;
-    position: absolute;
+    left: 34.4%;
     transform: translate(-50%, -50%);
-    padding: 35px;
     text-align: center;
     font-size: large;
     color: #FFF;
 `;
 
 export const AvaliacaoSecondTable = styled.div`
-    width: 450px;
-    height: 20px;
-    border: 2px solid #c4c4c4;
-    border-radius: 0 20px 20px 0;
-    background-color: rgb(255, 249, 222);
-    top: 93%;
-    left: 237mm;
     position: absolute;
+    padding: 2.5%;
+    position: absolute;
+    top: 93%;
+    width: 32%;
+    height: 7%;
+    left: 62.6%;
+    border: 2px solid #c4c4c4;
+    background-color: rgb(255, 249, 222);
+    border-radius: 0px 20px 20px 0px;
     transform: translate(-50%, -50%);
-    padding: 35px;
     text-align: center;
-    font-size: 22px;
-    color: #FFF;
+    font-size: large;
+    color: #FFF; 
 `;
 
 export const ReferenciaFirstTable = styled.div`
-    width: 350px;
-    height: 20px;
+    margin: 0;
+    padding: 2.5%;
+    position: absolute;
+    width: 24.5%;
+    height: 7%;
     border: 2px solid #c4c4c4;
     border-radius: 20px 0 0 20px;
-    background-color: rgb(44, 110, 201);
+    background-color: #4585B9;
     top: 103%;
-    left: 131.4mm;
-    position: absolute;
+    left: 34.4%;
     transform: translate(-50%, -50%);
-    padding: 35px;
     text-align: center;
     font-size: large;
     color: #FFF;
 `;
 
 export const ReferenciaSecondTable = styled.div`
-    width: 450px;
-    height: 20px;
-    border: 2px solid #c4c4c4;
-    border-radius: 0 20px 20px 0;
-    background-color: rgb(255, 249, 222);
-    top: 103%;
-    left: 237mm;
     position: absolute;
+    padding: 2.5%;
+    position: absolute;
+    top: 103%;
+    width: 32%;
+    height: 7%;
+    left: 62.6%;
+    border: 2px solid #c4c4c4;
+    background-color: rgb(255, 249, 222);
+    border-radius: 0px 20px 20px 0px;
     transform: translate(-50%, -50%);
-    padding: 35px;
     text-align: center;
-    font-size: 22px;
-    color: #FFF;
+    font-size: large;
+    color: #FFF; 
 `;
 
 /* ICONS */

@@ -21,11 +21,11 @@ export const TextTitle = styled.h1`
 `;
 
 export const MainTable = styled.div`
-    width: 900px;
+    width: 63%;
     height: 10px;
     border: 1px solid whitesmoke;
     border-radius: 20px 20px 20px 20px;
-    background-color: rgba(0,0,5,0.7);
+    background-color: rgb(44, 110, 201);
     border: 2px solid #c4c4c4;
     top: 30%;
     left: 50%;
@@ -43,11 +43,11 @@ export const TextSubtitle = styled.h2`
 
 /* Tabela Descricao */
 export const DescricaoTable = styled.div`
-    width: 290px;
-    height: 20px;
+    width: 20.2%;
+    height: 9%;
     border: 1px solid whitesmoke;
     border-radius: 20px 20px 20px 20px;
-    background-color: rgb(44, 110, 201);
+    background-color: #4585B9;
     border: 2px solid #c4c4c4;
     top: 40%;
     left: 29%;
@@ -59,11 +59,11 @@ export const DescricaoTable = styled.div`
 
 /* Tabela Prazo */
 export const PrazoTable = styled.div`
-    width: 290px;
-    height: 20px;
+    width: 20.2%;
+    height: 9%;
     border: 1px solid whitesmoke;
     border-radius: 20px 20px 20px 20px;
-    background-color: rgb(44, 110, 201);
+    background-color: #4585B9;
     border: 2px solid #c4c4c4;
     top: 40%;
     left: 50%;
@@ -75,11 +75,11 @@ export const PrazoTable = styled.div`
 
 /* Tabela Status */
 export const StatusTable = styled.div`
-    width: 290px;
-    height: 20px;
+    width: 20.2%;
+    height: 9%;
     border: 1px solid whitesmoke;
     border-radius: 20px 20px 20px 20px;
-    background-color: rgb(44, 110, 201);
+    background-color: #4585B9;
     border: 2px solid #c4c4c4;
     top: 40%;
     left: 71%;
@@ -91,8 +91,8 @@ export const StatusTable = styled.div`
 
 /* Primeira Coluna abaixo da Descrição */
 export const FirstColumnTableOne = styled.div`
-    width: 290px;
-    height: 20px;
+    width: 20.2%;
+    height: 9%;
     border: 1px solid whitesmoke;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(255, 249, 222);
@@ -106,8 +106,8 @@ export const FirstColumnTableOne = styled.div`
 `;
 
 export const FirstColumnTableTwo = styled.div`
-    width: 290px;
-    height: 20px;
+    width: 20.2%;
+    height: 9%;
     border: 1px solid whitesmoke;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(255, 249, 222);
@@ -121,8 +121,8 @@ export const FirstColumnTableTwo = styled.div`
 `;
 
 export const FirstColumnTableThree = styled.div`
-    width: 290px;
-    height: 20px;
+    width: 20.2%;
+    height: 9%;
     border: 1px solid whitesmoke;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(255, 249, 222);
@@ -137,8 +137,8 @@ export const FirstColumnTableThree = styled.div`
 
 /* Segunda Coluna abaixo do Prazo */
 export const SecondColumnTableOne = styled.div`
-    width: 290px;
-    height: 20px;
+    width: 20.2%;
+    height: 9%;
     border: 1px solid whitesmoke;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(255, 249, 222);
@@ -152,8 +152,8 @@ export const SecondColumnTableOne = styled.div`
 `;
 
 export const SecondColumnTableTwo = styled.div`
-    width: 290px;
-    height: 20px;
+    width: 20.2%;
+    height: 9%;
     border: 1px solid whitesmoke;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(255, 249, 222);
@@ -167,8 +167,8 @@ export const SecondColumnTableTwo = styled.div`
 `;
 
 export const SecondColumnTableThree = styled.div`
-    width: 290px;
-    height: 20px;
+    width: 20.2%;
+    height: 9%;
     border: 1px solid whitesmoke;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(255, 249, 222);
@@ -183,17 +183,19 @@ export const SecondColumnTableThree = styled.div`
 
 /* Terceira Coluna abaixo do Status */
 export const ThirdColumnTableOne = styled.div`
-    width: 290px;
-    height: 20px;
+    width: 20.2%;
+    height: 9%;
     border: 1px solid whitesmoke;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(255, 249, 222);
     border: 2px solid #c4c4c4;
+    position: absolute;
+    padding: 35px;
+    text-align: center;
     opacity: 80%;
     transition: 0.2s;
     top: 50%;
     left: 71%;
-    position: absolute;
     transform: translate(-50%, -50%);
     padding: 35px;
     text-align: center;
@@ -207,16 +209,19 @@ export const ThirdColumnTableOne = styled.div`
 `;
 
 export const ThirdColumnTableTwo = styled.div`
-    width: 290px;
-    height: 20px;
+    width: 20.2%;
+    height: 9%;
     border: 1px solid whitesmoke;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(255, 249, 222);
     border: 2px solid #c4c4c4;
+    position: absolute;
+    padding: 35px;
+    text-align: center;
     opacity: 80%;
+    transition: 0.2s;
     top: 60%;
     left: 71%;
-    position: absolute;
     transform: translate(-50%, -50%);
     padding: 35px;
     text-align: center;
@@ -230,16 +235,19 @@ export const ThirdColumnTableTwo = styled.div`
 `;
 
 export const ThirdColumnTableThree = styled.div`
-    width: 290px;
-    height: 20px;
+    width: 20.2%;
+    height: 9%;
     border: 1px solid whitesmoke;
     border-radius: 20px 20px 20px 20px;
     background-color: rgb(255, 249, 222);
     border: 2px solid #c4c4c4;
+    position: absolute;
+    padding: 35px;
+    text-align: center;
     opacity: 80%;
+    transition: 0.2s;
     top: 70%;
     left: 71%;
-    position: absolute;
     transform: translate(-50%, -50%);
     padding: 35px;
     text-align: center;
