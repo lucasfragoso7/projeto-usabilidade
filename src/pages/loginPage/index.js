@@ -1,25 +1,44 @@
 import React from 'react';
-import './styles.css';
-
+import {
+    Container,
+    UserImage,
+    TextTitle,
+    FormLabel,
+    FormInput,
+    FormButton,
+    Link,
+} from './styles';
 
 function loginPage({ history }) {
     return (
-        <body>
-            <div class="login">
-                <img src="/images/profile.png" class="usuario" width="100" height="100" alt="" />
-                <h1>SISTEMA ACADÊMICO</h1>
-                <form>
+        <Container>
+            <UserImage src="/images/profile.png" />
+            <TextTitle>SISTEMA ACADÊMICO</TextTitle>
 
-                <p>Usuário</p>
-                <input type="text" name="" placeholder="Usuário ou Email" required />
-                <p>Senha</p>
-                <input type="password" name="" placeholder="Insira sua senha" required />
-                <input type="submit" name="" value="Entrar" onClick={() => history.push('/home')} />
-                <a href="mailto:thales.porto@maisunifacisa.com.br">Esqueceu sua senha?</a>
+            <form>
+                <FormLabel>Usuário</FormLabel>
+                <FormInput
+                    type="text"
+                    name=""
+                    placeholder="Nome de usuário ou Email"
+                    required
+                />
 
-                </form>
-            </div>
-        </body>
+                <FormLabel>Senha</FormLabel>
+                <FormInput
+                    type="password"
+                    name=""
+                    placeholder="Insira sua senha"
+                    required
+                />
+                <FormButton type="submit" onClick={() => history.push('/home')}>
+                    Entrar
+                </FormButton>
+                <Link href="mailto:thales.porto@maisunifacisa.com.br">
+                    Esqueceu sua senha?
+                </Link>
+            </form>
+        </Container>
     );
 }
 

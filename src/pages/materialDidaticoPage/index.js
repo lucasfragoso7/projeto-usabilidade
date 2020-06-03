@@ -1,44 +1,64 @@
 import React from 'react';
-import { Container, CardDead, Button, CardTitle, TextInput, CardButton, TextTitleCad, MainTitle, TitleText, ExitIcon } from './styles';
-import { IoIosExit, IoIosAddCircleOutline } from 'react-icons/io';
-function materialDidaticoPage({ history }) {
+import { IoIosAddCircleOutline } from 'react-icons/io';
+import {
+    Container,
+    CardDead,
+    CardTitle,
+    TextInput,
+    CardButton,
+    TextTitleCad,
+    MainTitle,
+    TitleText,
+} from './styles';
+
+import Sidemenu from '../../components/sidemenu';
+
+function materialDidaticoPage() {
     return (
-        <Container >
+        <Container>
+            <Sidemenu />
+
             <MainTitle>
                 <TitleText>Material Didático</TitleText>
             </MainTitle>
-            <ExitIcon fontSize={50}>
-                <IoIosExit onClick={() => history.push('/home')} ></IoIosExit>
-            </ExitIcon>
 
             <CardDead>
                 <CardTitle>
-
-                    <TextTitleCad>Material Didatico</TextTitleCad>
+                    <TextTitleCad>Material Didático</TextTitleCad>
                 </CardTitle>
-                <TextInput type={'text'}>
-
-                </TextInput>
+                <TextInput type="text" />
                 <CardButton>
-                <IoIosAddCircleOutline style={{ background: '#fff', color: '#4585B9', fontSize: '50px', borderRadius: '50%', marginLeft: '50%' }} />
+                    <IoIosAddCircleOutline
+                        style={{
+                            background: '#fff',
+                            color: '#4585B9',
+                            fontSize: '50px',
+                            borderRadius: '50%',
+                            marginLeft: '50%',
+                            marginTop: '10',
+                        }}
+                    />
                 </CardButton>
-
             </CardDead>
 
             <CardDead>
                 <CardTitle>
-                    <TextTitleCad>Material Didatico Digital</TextTitleCad>
+                    <TextTitleCad>Material Didático Digital</TextTitleCad>
                 </CardTitle>
-                <TextInput>
-
-                </TextInput>
-                <CardButton >
-                    <IoIosAddCircleOutline style={{ background: '#fff', color: '#4585B9', fontSize: '50px', borderRadius: '50%', marginLeft: '50%' }} />
+                <TextInput />
+                <CardButton>
+                    <IoIosAddCircleOutline
+                        style={{
+                            background: '#fff',
+                            color: '#4585B9',
+                            fontSize: '50px',
+                            borderRadius: '50%',
+                            marginLeft: '50%',
+                            marginTop: '10',
+                        }}
+                    />
                 </CardButton>
-
             </CardDead>
-
-
         </Container>
     );
 }

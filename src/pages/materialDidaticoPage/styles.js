@@ -1,83 +1,64 @@
 import styled from 'styled-components';
 
-export const Container = styled.body`
-  font-family: 'Roboto', sans-serif;
-  margin: 15px;
+export const Container = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
 `;
 
 export const MainTitle = styled.div`
-    margin: 10px;
+    margin-bottom: 50px;
+    width: 90%;
+    margin-top: 0px;
     padding: 10px;
-    color: #2b2b2b;
+    color: #fff;
+    text-align: center;
 `;
 
 export const CardDead = styled.div`
-    margin: 7%;
+    margin: 5%;
+    width: 40%;
     border-radius: 25px;
     background-color: #fff;
     border-style: solid;
-    padding: 0%;
-    border-color: #4585B9
+    border-color: #4585b9;
 `;
 
 export const CardTitle = styled.div`
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    background-color: #4585B9 !important;
+    background-color: #4585b9 !important;
+    padding: 10px;
 `;
+
 export const CardButton = styled.div`
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #4585B9 !important;
-`;
-export const Button = styled.button`
-  margin-left:50%;
-  padding: 1em;
-  border-radius: 50%;
-  border-style:none
+    background-color: #4585b9 !important;
 `;
 
+export const Button = styled.button`
+    margin-left: 50%;
+    padding: 1em;
+    border-radius: 50%;
+    border-style: none;
+`;
 
 export const TextInput = styled.input`
-    margin: 7%;
     border: 2px outset transparent;
-
 `;
+
 export const TitleText = styled.h1`
-    margin-top: 80px;
+    margin-top: 4%;
     border: 2px outset transparent;
     height: 70px;
-    border-left: #FFF;
-    border-right: #FFF;
-    border-bottom-color: #C4C4C4;
+    border-left: #fff;
+    border-right: #fff;
+    border-bottom-color: #fff;
 `;
+
 export const TextTitleCad = styled.h1`
-    color:#fff;
-
-`;
-
-/* ICONS */
-export const ExitIcon = styled.div`
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 10%;
-    height: 10%;
-    cursor: pointer;
-    width: 60px;
-    height: 60px;
-    padding: 1rem;
-    background: var(--primary-color);
-    font-size: ${props => `${props.fontSize}px`};
     color: #fff;
-    opacity: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    &:hover {
-        cursor: pointer;
-        color: rgba(214, 69, 65, 1);
-        transition: 0.5s all ease-out;
-    }
 `;

@@ -1,82 +1,106 @@
 import React from 'react';
-import { Container, MainTitle, ProfessorFirstTable, TitleText, TextTableOne, ProfessorSecondTable, TextTableTwo, MateriaFirstTable, MateriaSecondTable, NivelFirstTable, NivelSecondTable, ConteudoFirstTable, ConteudoSecondTable, MetodologiaFirstTable, MetodologiaSecondTable, CronogramaFirstTable, CronogramaSecondTable, AvaliacaoFirstTable, AvaliacaoSecondTable, ReferenciaFirstTable, ReferenciaSecondTable, ExitIcon } from './styles';
-import { IoIosExit } from 'react-icons/io';
+import {
+    Container,
+    MainTitle,
+    ClassInfoTable,
+    TitleText,
+    TableRow,
+    TableContent,
+    TextTable,
+} from './styles';
 
-function planejamentoPage({ history }) {
+import Sidemenu from '../../components/sidemenu';
+
+function planejamentoPage() {
     return (
         <Container>
+            <Sidemenu />
+
             <MainTitle>
                 <TitleText>PLANEJAMENTO DE AULAS</TitleText>
             </MainTitle>
 
-            <ProfessorFirstTable>
-                <TextTableOne>Professor(a)</TextTableOne>
-            </ProfessorFirstTable>
+            <div>
+                <TableRow>
+                    <TableContent left>
+                        <TextTable>Professor(a)</TextTable>
+                    </TableContent>
+                    <TableContent>
+                        <TextTable>Daniel</TextTable>
+                    </TableContent>
+                </TableRow>
 
-            <ProfessorSecondTable>
-                <TextTableTwo>Daniel</TextTableTwo>
-            </ProfessorSecondTable>
+                <TableRow>
+                    <TableContent left>
+                        <TextTable>Matéria</TextTable>
+                    </TableContent>
+                    <TableContent>
+                        <TextTable>Inglês</TextTable>
+                    </TableContent>
+                </TableRow>
 
-            <MateriaFirstTable>
-                <TextTableOne>Matéria</TextTableOne>
-            </MateriaFirstTable>
+                <TableRow last>
+                    <TableContent left>
+                        <TextTable>Nível</TextTable>
+                    </TableContent>
+                    <TableContent>
+                        <TextTable>Básico e Intermediário</TextTable>
+                    </TableContent>
+                </TableRow>
+            </div>
 
-            <MateriaSecondTable>
-                <TextTableTwo>Inglês</TextTableTwo>
-            </MateriaSecondTable>
+            <ClassInfoTable>
+                <TableRow class>
+                    <TableContent left>
+                        <TextTable>Conteúdo</TextTable>
+                    </TableContent>
+                    <TableContent>
+                        <TextTable>
+                            Connectors, Pronouns, Verbs and If Clauses
+                        </TextTable>
+                    </TableContent>
+                </TableRow>
 
-            <NivelFirstTable>
-                <TextTableOne>Nivel</TextTableOne>
-            </NivelFirstTable>
+                <TableRow class>
+                    <TableContent left>
+                        <TextTable>Metodologia</TextTable>
+                    </TableContent>
+                    <TableContent>
+                        <TextTable>Tradicional e Instrumental</TextTable>
+                    </TableContent>
+                </TableRow>
 
-            <NivelSecondTable>
-                <TextTableTwo>Básico e Intermediário</TextTableTwo>
-            </NivelSecondTable>
+                <TableRow class>
+                    <TableContent left>
+                        <TextTable>Cronograma</TextTable>
+                    </TableContent>
+                    <TableContent>
+                        <TextTable>
+                            Seg: Reading, Qui: Listening e Speaking
+                        </TextTable>
+                    </TableContent>
+                </TableRow>
 
-            <ConteudoFirstTable>
-                <TextTableOne>Conteúdo</TextTableOne>
-            </ConteudoFirstTable>
+                <TableRow class>
+                    <TableContent left>
+                        <TextTable>Avaliação</TextTable>
+                    </TableContent>
+                    <TableContent>
+                        <TextTable>
+                            Unid 1: 15 de Março, Unid 2: 17 de Junho
+                        </TextTable>
+                    </TableContent>
+                </TableRow>
 
-            <ConteudoSecondTable>
-                <TextTableTwo>Connectors, Pronouns, Verbs e If Clauses</TextTableTwo>
-            </ConteudoSecondTable>
-
-            <MetodologiaFirstTable>
-                <TextTableOne>Metodologia</TextTableOne>
-            </MetodologiaFirstTable>
-
-            <MetodologiaSecondTable>
-                <TextTableTwo>Tradicional e Instrumental</TextTableTwo>
-            </MetodologiaSecondTable>
-
-            <CronogramaFirstTable>
-                <TextTableOne>Cronograma</TextTableOne>
-            </CronogramaFirstTable>
-
-            <CronogramaSecondTable>
-                <TextTableTwo>Seg: Reading, Qui: Listening e Speaking</TextTableTwo>
-            </CronogramaSecondTable>
-
-            <AvaliacaoFirstTable>
-                <TextTableOne>Avaliação</TextTableOne>
-            </AvaliacaoFirstTable>
-
-            <AvaliacaoSecondTable>
-                <TextTableTwo>Unid 1: 15 de Março, Unid 2: 17 de Junho</TextTableTwo>
-            </AvaliacaoSecondTable>
-
-            <ReferenciaFirstTable>
-                <TextTableOne>Referência</TextTableOne>
-            </ReferenciaFirstTable>
-
-            <ReferenciaSecondTable>
-                <TextTableTwo>Global Language by McArthur</TextTableTwo>
-            </ReferenciaSecondTable>
-
-            <ExitIcon fontSize={50}>
-                <IoIosExit onClick={() => history.push('/home')} ></IoIosExit>
-            </ExitIcon>
-
+                <TableRow class>
+                    <TableContent left>
+                        <TextTable>Referências</TextTable>
+                    </TableContent>
+                    <TableContent>
+                        <TextTable>Global Language by McArthur</TextTable>
+                    </TableContent>
+                </TableRow>
+            </ClassInfoTable>
         </Container>
     );
 }
