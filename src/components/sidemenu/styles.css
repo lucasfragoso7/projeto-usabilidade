@@ -1,87 +1,10 @@
-/* CORE STYLES */
-:root {
-    --primary-color: #69A1D2;
-    --overlay-color: rgba(24, 39, 51 , 0.85);
-    --menu-speed: 0.75s;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.4;
-  }
-  
-  .container {
-    max-width: 960px;
-    margin: auto;
-    overflow: hidden;
-    padding: 0 3rem;
-  }
-  
-  .showcase {
-    color: #000000;
-    height: 100vh;
-    position: relative;
-  }
-  
-  .showcase .showcase-inner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 80%;
-    color: #2b2b2b;
-  }
-  
-  .showcase h1 {
-    font-size: 3rem;
-  }
-  
-  .showcase .showcase-outer {
-    text-align: center;
-    height: auto;
-    top: 35%;
-    color: #2b2b2b;
-  }
-
-  .showcase p {
-    font-size: 1.7rem;
-    margin-left: -10px;
-  }
-
-  /* IMAGES */
-  .profile-image {
-    width: 100px;
-    height: 100px;
-    border: 2px dashed #000000;
-    box-sizing: border-box;
-    padding: 1px 1px;
-    border-radius: 50px 50px 50px 50px;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 73%;
-    left: 49%;
-  }
-
-  /* ICONS */
-  .profile-icon {
-    font-size: larger;
-  }
-
-  /* MENU STYLES */
-  .menu-wrap {
+.menu-wrap {
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
   }
-  
+
   .menu-wrap .toggler {
     position: absolute;
     top: 0;
@@ -92,7 +15,7 @@
     height: 50px;
     opacity: 0;
   }
-  
+
   .menu-wrap .hamburger {
     position: absolute;
     top: 0;
@@ -107,7 +30,7 @@
     align-items: center;
     justify-content: center;
   }
-  
+
   /* Hamburger Line */
   .menu-wrap .hamburger > div {
     position: relative;
@@ -120,7 +43,7 @@
     justify-content: center;
     transition: all 0.4s ease;
   }
-  
+
   /* Hamburger Lines - Top & Bottom */
   .menu-wrap .hamburger > div::before,
   .menu-wrap .hamburger > div::after {
@@ -132,44 +55,44 @@
     height: 2px;
     background: inherit;
   }
-  
+
   /* Moves Line Down */
   .menu-wrap .hamburger > div::after {
     top: 10px;
   }
-  
+
   /* Toggler Animation */
   .menu-wrap .toggler:checked + .hamburger > div {
     transform: rotate(135deg);
   }
-  
+
   /* Turns Lines Into X */
   .menu-wrap .toggler:checked + .hamburger > div:before,
   .menu-wrap .toggler:checked + .hamburger > div:after {
     top: 0;
     transform: rotate(90deg);
   }
-  
+
   /* Rotate On Hover When Checked */
   .menu-wrap .toggler:checked:hover + .hamburger > div {
     transform: rotate(225deg);
   }
-  
+
   /* Show Menu */
   .menu-wrap .toggler:checked ~ .menu {
     visibility: visible;
   }
-  
+
   .menu-wrap .toggler:checked ~ .menu > div {
     transform: scale(1);
     transition-duration: var(--menu-speed);
   }
-  
+
   .menu-wrap .toggler:checked ~ .menu > div > div {
     opacity: 1;
     transition:  opacity 0.4s ease 0.4s;
   }
-  
+
   .menu-wrap .menu {
     position: fixed;
     top: 0;
@@ -182,7 +105,7 @@
     align-items: center;
     justify-content: center;
   }
-  
+
   .menu-wrap .menu > div {
     background: #69A1D2;
     border-radius: 50%;
@@ -195,7 +118,7 @@
     transform: scale(0);
     transition: all 0.4s ease;
   }
-  
+
   .menu-wrap .menu > div > div {
     text-align: center;
     max-width: 90vw;
@@ -203,37 +126,16 @@
     opacity: 0;
     transition: opacity 0.4s ease;
   }
-  
+
   .menu-wrap .menu > div > div > ul > li {
     list-style: none;
     color: #fff;
     font-size: 1.5rem;
     padding: 1rem;
   }
-  
+
   .menu-wrap .menu > div > div > ul > li > a {
     color: inherit;
     text-decoration: none;
     transition: color 0.4s ease;
   }
-  
-  .exit-icon {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 10%;
-    height: 10%;
-    cursor: pointer;
-    z-index: 1;
-    width: 60px;
-    height: 60px;
-    padding: 1rem;
-    background: var(--primary-color);
-    color: #fff;
-    opacity: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-  

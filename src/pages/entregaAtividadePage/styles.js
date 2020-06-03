@@ -1,23 +1,29 @@
 import styled from 'styled-components';
 
-export const Container = styled.body`
-    font-family: 'Roboto', sans-serif;
-    margin: 15px;
+export const Container = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
 `;
 
 export const MainTitle = styled.div`
-    margin: 10px;
+    margin-bottom: 50px;
+    width: 90%;
+    margin-top: 0px;
     padding: 10px;
-    color: #2b2b2b;
+    color: #fff;
+    text-align: center;
 `;
 
-export const TextTitle = styled.h1`
-    margin-top: 80px;
+export const TitleText = styled.h1`
+    margin-top: 4%;
     border: 2px outset transparent;
     height: 70px;
-    border-left: #FFF;
-    border-right: #FFF;
-    border-bottom-color: #C4C4C4;
+    border-left: #fff;
+    border-right: #fff;
+    border-bottom-color: #fff;
 `;
 
 export const MainTable = styled.div`
@@ -25,7 +31,7 @@ export const MainTable = styled.div`
     height: 10px;
     border: 1px solid whitesmoke;
     border-radius: 20px 20px 20px 20px;
-    background-color: rgb(44, 110, 201);
+    background-color: rgba(0, 0, 5, 0.7);
     border: 2px solid #c4c4c4;
     top: 30%;
     left: 50%;
@@ -38,7 +44,7 @@ export const MainTable = styled.div`
 
 export const TextSubtitle = styled.h2`
     margin-top: -15px;
-    color: #FFF;
+    color: #fff;
 `;
 
 /* Tabela Descricao */
@@ -203,7 +209,7 @@ export const ThirdColumnTableOne = styled.div`
 
     &:hover {
         cursor: pointer;
-        background: rgba(111,199, 139);
+        background: rgba(111, 199, 139);
         transition: 0.5s all ease-out;
     }
 `;
@@ -279,7 +285,7 @@ export const ExitIcon = styled.div`
     height: 60px;
     padding: 1rem;
     background: var(--primary-color);
-    font-size: ${props => `${props.fontSize}px`};
+    font-size: ${(props) => `${props.fontSize}px`};
     color: #fff;
     opacity: 90%;
     display: flex;
