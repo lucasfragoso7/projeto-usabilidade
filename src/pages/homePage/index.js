@@ -36,7 +36,7 @@ function homePage({history}) {
                 </div>
                 <img src="/images/profile2.png" class="profile-image" alt="" />
                 <div class="container showcase-outer">
-                    <p>Bem-Vindo Thales</p>
+                    <p>Bem-Vindo, Thales</p>
                 </div>
 
                 <button>

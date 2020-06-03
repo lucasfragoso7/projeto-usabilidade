@@ -25,24 +25,26 @@ export const CardTitle = styled.div`
     border-top-right-radius: 20px;
     background-color: #4585B9 !important;
 `;
+
 export const CardButton = styled.div`
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #4585B9 !important;
 `;
+
 export const Button = styled.button`
-  margin-left:50%;
+  margin-left: 50%;
   padding: 1em;
   border-radius: 50%;
-  border-style:none
+  border-style: none;
 `;
-
 
 export const TextInput = styled.input`
     margin: 7%;
     border: 2px outset transparent;
 
 `;
+
 export const TitleText = styled.h1`
     margin-top: 80px;
     border: 2px outset transparent;
@@ -51,9 +53,11 @@ export const TitleText = styled.h1`
     border-right: #FFF;
     border-bottom-color: #C4C4C4;
 `;
+
 export const TextTitleCad = styled.h1`
     color:#fff;
-
+    padding: 1%;
+    font-weight: normal;
 `;
 
 /* ICONS */

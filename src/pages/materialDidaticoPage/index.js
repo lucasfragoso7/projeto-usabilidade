@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, CardDead, Button, CardTitle, TextInput, CardButton, TextTitleCad, MainTitle, TitleText, ExitIcon } from './styles';
 import { IoIosExit, IoIosAddCircleOutline } from 'react-icons/io';
+
 function materialDidaticoPage({ history }) {
     return (
         <Container >
@@ -20,7 +21,7 @@ function materialDidaticoPage({ history }) {
 
                 </TextInput>
                 <CardButton>
-                <IoIosAddCircleOutline style={{ background: '#fff', color: '#4585B9', fontSize: '50px', borderRadius: '50%', marginLeft: '50%' }} />
+                <IoIosAddCircleOutline style={{ background: '#fff', color: '#4585B9', fontSize: '50px', borderRadius: '50%', marginLeft: '45%', transform: 'translateY(-50%)' }} />
                 </CardButton>
 
             </CardDead>
@@ -33,7 +34,7 @@ function materialDidaticoPage({ history }) {
 
                 </TextInput>
                 <CardButton >
-                    <IoIosAddCircleOutline style={{ background: '#fff', color: '#4585B9', fontSize: '50px', borderRadius: '50%', marginLeft: '50%' }} />
+                    <IoIosAddCircleOutline style={{ background: '#fff', color: '#4585B9', fontSize: '50px', borderRadius: '50%', marginLeft: '45%', transform: 'translateY(-50%)' }} />
                 </CardButton>
 
             </CardDead>
