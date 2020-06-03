@@ -1,5 +1,7 @@
 import React from 'react';
 import Sidemenu from '../../components/sidemenu';
+import ReactCardCarousel from 'react-card-carousel';
+
 import {
     Container,
     Showcase,
@@ -8,9 +10,11 @@ import {
     ProfileImage,
     OuterContent,
     WelcomeText,
+    CardAlive
 } from './styles';
 
 function homePage() {
+
     return (
         <Container>
             <Sidemenu />
@@ -21,11 +25,23 @@ function homePage() {
                 </InnerContent>
 
                 <OuterContent>
-                    <WelcomeText>Bem-Vindo Thales</WelcomeText>
+                    <WelcomeText>Bem-vindo, Thales</WelcomeText>
                 </OuterContent>
 
                 <ProfileImage src="/images/profile2.png" />
             </Showcase>
+            <div><ReactCardCarousel autoplay={true} autoplay_speed={2500}>
+                <CardAlive>
+                    First Card
+        </CardAlive>
+                <CardAlive>
+                    Second Card
+        </CardAlive>
+   
+            </ReactCardCarousel>
+</div>
+            
+
         </Container>
     );
 }

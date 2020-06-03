@@ -4,6 +4,7 @@ export const Container = styled.div`
     display: flex;
     justify-content: center;
     align-content: center;
+    flex-direction: column;
 `;
 
 export const Showcase = styled.div`
@@ -51,4 +52,16 @@ export const WelcomeText = styled.p`
     font-size: 1.7rem;
     margin-left: -10px;
     color: #fff;
+`;
+
+export const CardAlive = styled.div`
+    height: 200px;
+    width: 200px;
+    padding-top: 80px;
+    text-align: center;
+    background: #52C0F5;
+    color: #FFF;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 10px;
 `;

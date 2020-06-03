@@ -19,7 +19,7 @@ export const MainTitle = styled.div`
 
 export const CardDead = styled.div`
     margin: 5%;
-    width: 40%;
+    width: 50%;
     border-radius: 25px;
     background-color: #fff;
     border-style: solid;
@@ -37,6 +37,9 @@ export const CardButton = styled.div`
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #4585b9 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `;
 
 export const Button = styled.button`
@@ -48,6 +51,7 @@ export const Button = styled.button`
 
 export const TextInput = styled.input`
     border: 2px outset transparent;
+    height: 50px;
 `;
 
 export const TitleText = styled.h1`
@@ -61,4 +65,5 @@ export const TitleText = styled.h1`
 
 export const TextTitleCad = styled.h1`
     color: #fff;
+    text-align: center;
 `;

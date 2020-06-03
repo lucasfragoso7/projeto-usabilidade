@@ -34,7 +34,6 @@ function materialDidaticoPage() {
                             color: '#4585B9',
                             fontSize: '50px',
                             borderRadius: '50%',
-                            marginLeft: '50%',
                             marginTop: '10',
                         }}
                     />
@@ -53,7 +52,6 @@ function materialDidaticoPage() {
                             color: '#4585B9',
                             fontSize: '50px',
                             borderRadius: '50%',
-                            marginLeft: '50%',
                             marginTop: '10',
                         }}
                     />
