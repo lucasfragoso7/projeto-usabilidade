@@ -1,5 +1,5 @@
 import React from 'react';
-import { IoIosAddCircleOutline } from 'react-icons/io';
+import { IoIosCheckmarkCircle } from 'react-icons/io';
 import {
     Container,
     CardDead,
@@ -28,13 +28,13 @@ function materialDidaticoPage() {
                 </CardTitle>
                 <TextInput type="text" />
                 <CardButton>
-                    <IoIosAddCircleOutline
+                    <IoIosCheckmarkCircle onClick={() => { alert('Material Adicionado!'); }}
                         style={{
                             background: '#fff',
                             color: '#4585B9',
                             fontSize: '50px',
                             borderRadius: '50%',
-                            marginTop: '10',
+                            marginTop: '9',
                         }}
                     />
                 </CardButton>
@@ -46,13 +46,13 @@ function materialDidaticoPage() {
                 </CardTitle>
                 <TextInput />
                 <CardButton>
-                    <IoIosAddCircleOutline
+                    <IoIosCheckmarkCircle onClick={() => { alert('Material Adicionado!'); }}
                         style={{
                             background: '#fff',
                             color: '#4585B9',
                             fontSize: '50px',
                             borderRadius: '50%',
-                            marginTop: '10',
+                            marginTop: '9',
                         }}
                     />
                 </CardButton>

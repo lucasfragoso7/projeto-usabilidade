@@ -8,7 +8,6 @@ import {
     CardDays,
     CardDate,
 } from './styles';
-
 import Sidemenu from '../../components/sidemenu';
 
 function listaAtividadesPage() {

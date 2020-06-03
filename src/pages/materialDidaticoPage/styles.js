@@ -52,6 +52,7 @@ export const Button = styled.button`
 export const TextInput = styled.input`
     border: 2px outset transparent;
     height: 50px;
+    font-size: 1.2em;
 `;
 
 export const TitleText = styled.h1`

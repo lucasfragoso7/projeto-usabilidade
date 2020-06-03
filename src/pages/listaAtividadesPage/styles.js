@@ -27,12 +27,11 @@ export const TitleText = styled.h1`
 `;
 
 export const MainTable = styled.div`
-    width: 70%;
+    width: 90%;
     height: 10px;
-    border: 1px solid whitesmoke;
     border-radius: 20px 20px 20px 20px;
     background-color: rgba(0, 0, 5, 0.7);
-    border: 2px solid #c4c4c4;
+    border: 1px solid whitesmoke;
     padding: 35px;
     text-align: center;
     font-size: large;
@@ -47,7 +46,8 @@ export const CardDays = styled.div`
     margin-right: 30px;
     width: 150px;
     height: 70px;
-    background-color: red;
+    background-color: rgba(100, 191, 132);
+    border: 1px solid whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,8 @@ export const CardDate = styled.div`
     margin-right: 30px;
     width: 150px;
     height: 70px;
-    background-color: blue;
+    background-color: #4585B9;
+    border: 1px solid whitesmoke;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;

@@ -31,14 +31,14 @@ export const TitleText = styled.h1`
 export const ProfileImage = styled.img`
     width: 100px;
     height: 100px;
-    border: 2px dashed #000000;
+    border: 2px dashed #f6f4f0;
     box-sizing: border-box;
-    padding: 1px 1px;
+    padding: 2px 2px;
     border-radius: 50px 50px 50px 50px;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 40%;
-    left: 49%;
+    top: 45%;
+    margin-left: 50%;
 `;
 
 export const OuterContent = styled.div`
@@ -50,7 +50,6 @@ export const OuterContent = styled.div`
 
 export const WelcomeText = styled.p`
     font-size: 1.7rem;
-    margin-left: -10px;
     color: #fff;
 `;
 

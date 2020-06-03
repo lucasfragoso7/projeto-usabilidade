@@ -30,16 +30,17 @@ function homePage() {
 
                 <ProfileImage src="/images/profile2.png" />
             </Showcase>
-            <div><ReactCardCarousel autoplay={true} autoplay_speed={2500}>
+
+        <div>
+            <ReactCardCarousel autoplay={true} autoplay_speed={2500}>
                 <CardAlive>
                     First Card
-        </CardAlive>
+                </CardAlive>
                 <CardAlive>
                     Second Card
-        </CardAlive>
-   
+                </CardAlive>
             </ReactCardCarousel>
-</div>
+        </div>
             
 
         </Container>
