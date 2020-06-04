@@ -30,7 +30,7 @@ export const MainTable = styled.div`
     width: 70%;
     height: 10px;
     border: 1px solid whitesmoke;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 10px 10px 10px 10px;
     background-color: rgba(0, 0, 5, 0.7);
     top: 30%;
     left: 50%;

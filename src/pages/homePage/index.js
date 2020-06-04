@@ -1,6 +1,6 @@
 import React from 'react';
 import Sidemenu from '../../components/sidemenu';
-import ReactCardCarousel from 'react-card-carousel';
+// import ReactCardCarousel from 'react-card-carousel';
 
 import {
     Container,
@@ -21,26 +21,29 @@ function homePage() {
 
             <Showcase>
                 <InnerContent>
-                    <TitleText>PORTAL DO ALUNO</TitleText>
+                    <TitleText>PORTAL ACADÊMICO</TitleText>
                 </InnerContent>
 
                 <OuterContent>
-                    <WelcomeText>Bem-vindo, Thales</WelcomeText>
+                    <WelcomeText>Bem-vindo, Daniel</WelcomeText>
                 </OuterContent>
 
                 <ProfileImage src="/images/profile2.png" />
             </Showcase>
 
-        <div>
+        {/* <div>
             <ReactCardCarousel autoplay={true} autoplay_speed={2500}>
                 <CardAlive>
-                    First Card
+                Inglês
                 </CardAlive>
                 <CardAlive>
-                    Second Card
+                Matemática
+                </CardAlive>
+                <CardAlive>
+                Biologia
                 </CardAlive>
             </ReactCardCarousel>
-        </div>
+        </div> */}
             
 
         </Container>

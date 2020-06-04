@@ -22,15 +22,15 @@ export default function Sidemenu() {
                     <div>
                         <ul>
                             <li>
-                                <IoIosCalendar class="icon" />{' '}
+                                <IoIosBookmarks class="icon" />{' '}
                                 <a href="/planejamento">
-                                    PLANEJAMENTO DE AULAS
+                                    PRÓXIMAS AULAS
                                 </a>
                             </li>
                             <li>
                                 <IoIosCreate class="icon" />{' '}
                                 <a href="/entrega-atividade">
-                                    CRIAÇÃO E ENTREGA DE ATIVIDADES
+                                    ENTREGA DE EXERCÍCIOS
                                 </a>
                             </li>
                             <li>
@@ -38,9 +38,9 @@ export default function Sidemenu() {
                                 <a href="/chat">CHAT</a>
                             </li>
                             <li>
-                                <IoIosBookmarks class="icon" />{' '}
+                                <IoIosCalendar class="icon" />{' '}
                                 <a href="/lista-atividade">
-                                    TRABALHOS, PROVAS E ATIVIDADES
+                                    AGENDA ACADÊMICA
                                 </a>
                             </li>
                             <li>

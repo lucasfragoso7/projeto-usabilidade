@@ -53,14 +53,14 @@ export const WelcomeText = styled.p`
     color: #fff;
 `;
 
-export const CardAlive = styled.div`
-    height: 200px;
-    width: 200px;
-    padding-top: 80px;
-    text-align: center;
-    background: #52C0F5;
-    color: #FFF;
-    font-size: 12px;
-    text-transform: uppercase;
-    border-radius: 10px;
-`;
+// export const CardAlive = styled.div`
+//     height: 200px;
+//     width: 200px;
+//     padding-top: 80px;
+//     text-align: center;
+//     background: #52C0F5;
+//     color: #FFF;
+//     font-size: 12px;
+//     text-transform: uppercase;
+//     border-radius: 10px;
+// `;

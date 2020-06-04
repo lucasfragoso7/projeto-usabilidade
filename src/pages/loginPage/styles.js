@@ -7,7 +7,7 @@ export const Container = styled.body`
     justify-content: center;
     width: 350px;
     height: 410px;
-    border: 2px solid #69a1d2;
+    border: 1px solid #f6f4f0;
     border-radius: 50px;
     color: #ffffff;
     background-color: rgba(0, 0, 5, 0.8);
@@ -22,7 +22,7 @@ export const Container = styled.body`
 export const UserImage = styled.img`
     border-radius: 50%;
     position: absolute;
-    top: -15%;
+    top: -17%;
     left: 120px;
     width: 100px;
     height: 100px;
