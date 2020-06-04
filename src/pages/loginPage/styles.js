@@ -6,7 +6,7 @@ export const Container = styled.body`
     align-items: center;
     justify-content: center;
     width: 350px;
-    height: 410px;
+    height: 430px;
     border: 1px solid #f6f4f0;
     border-radius: 50px;
     color: #ffffff;
@@ -22,8 +22,8 @@ export const Container = styled.body`
 export const UserImage = styled.img`
     border-radius: 50%;
     position: absolute;
-    top: -17%;
-    left: 120px;
+    top: -18%;
+    left: 119px;
     width: 100px;
     height: 100px;
 `;
@@ -85,10 +85,27 @@ export const Link = styled.a`
     line-height: 20px;
     color: #f4f8f7;
     transition: 0.2s;
-    margin-left: 25%;
+    display: flex;
+    margin-left: 28%;
+    margin-top: 6%;
 
     &:hover {
         transition: 0.2s;
         color: #ff4d4d;
+    }
+`;
+
+export const FacebookLink = styled.a`
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    color: #f4f8f7;
+    transition: 0.2s;
+    align-items: center;
+    margin-left: 22%;
+
+    &:hover {
+        transition: 0.2s;
+        color: #3b5998;
     }
 `;
