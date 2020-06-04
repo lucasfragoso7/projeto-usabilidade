@@ -24,7 +24,7 @@ function materialDidaticoPage() {
 
             <CardDead>
                 <CardTitle>
-                    <TextTitleCad>Material Didático</TextTitleCad>
+                    <TextTitleCad>MATERIAL DIDÁTICO</TextTitleCad>
                 </CardTitle>
                 <TextInput type="text" />
                 <CardButton>

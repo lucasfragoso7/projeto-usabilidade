@@ -15,7 +15,7 @@ function listaAtividadesPage() {
         <Container>
             <Sidemenu />
             <MainTitle>
-                <TitleText>Lista de Atividades</TitleText>
+                <TitleText>AGENDA ACADÊMICA</TitleText>
             </MainTitle>
 
             <MainTable>

@@ -28,7 +28,7 @@ function entregaAtividadePage() {
             <Sidemenu />
 
             <MainTitle>
-                <TitleText>CRIAÇÃO E ENTREGA DE ATIVIDADES</TitleText>
+                <TitleText>ENTREGA DE EXERCÍCIOS</TitleText>
             </MainTitle>
 
             <MainTable>

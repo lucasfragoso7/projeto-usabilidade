@@ -17,7 +17,7 @@ function planejamentoPage() {
             <Sidemenu />
 
             <MainTitle>
-                <TitleText>PLANEJAMENTO DE AULAS</TitleText>
+                <TitleText>PRÓXIMAS AULAS</TitleText>
             </MainTitle>
 
             <div>
