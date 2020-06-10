@@ -161,55 +161,42 @@ export const InputText = styled.input`
     font-size: 1em;
 `;
 
-export const ExitButton = styled.button`
-    border: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-right: 4.9%;
-    margin-top: 40.3%;
-    width: 10%;
-    height: 10%;
-    cursor: pointer;
-    width: 9.4%;
-    height: 60px;
-    padding: 1rem;
-    background: rgba(214, 69, 65, 1);
-    font-size: ${(props) => `${props.fontSize}px`};
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0px 0px 20px 0px;
-
-    &:hover {
-        background-color: rgb(236, 100, 75);
-        transition: 0.3s all ease-out;
-    }
-`;
-
 export const SendButton = styled.button`
     border: none;
     position: absolute;
-    top: 0;
-    right: 0;
-    margin-right: 7.9%;
-    margin-top: 49.8%;
+    top: 88%;
+    right: 7.9%;
     width: 8%;
     cursor: pointer;
     height: 12%;
-    padding: 1rem;
     background: rgba(111, 199, 139);
     font-size: ${(props) => `${props.fontSize}px`};
     color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 0px 20px 20px 0px;
     transform: translate(-50%, -50%);
 
     &:hover {
         background-color: rgb(135, 211, 124);
+        transition: 0.3s all ease-out;
+    }
+`;
+
+export const ExitButton = styled.button`
+    border: none;
+    position: absolute;
+    top: 71.3%;
+    right: 4.9%;
+    width: 10%;
+    height: 10%;
+    cursor: pointer;
+    width: 9.4%;
+    height: 7.3%;
+    background: rgba(214, 69, 65, 1);
+    color: #fff;
+    border-radius: 0px 0px 20px 0px;
+
+    &:hover {
+        background-color: rgb(236, 100, 75);
         transition: 0.3s all ease-out;
     }
 `;

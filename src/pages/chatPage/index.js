@@ -1,5 +1,4 @@
 import React from 'react';
-import { FiSend } from 'react-icons/fi';
 import {
     Container,
     MainTitle,
@@ -23,10 +22,11 @@ import {
 } from './styles';
 
 import Sidemenu from '../../components/sidemenu';
+import { FiSend } from 'react-icons/fi';
 import { IoIosExit } from "react-icons/io";
 
 
-function chatPage({history}) {
+function chatPage({ history }) {
     return (
         <Container>
             <Sidemenu />
@@ -97,14 +97,12 @@ function chatPage({history}) {
             />
 
             <SendButton
-                type="button"
-                onClick={() => {
-                    alert('Mensagem Enviada!');
-                }}
+                onClick={() => { alert('Mensagem Enviada!') }}
             >
                 {' '}
-                <FiSend font-size={30} />{' '}
+                <FiSend font-size={30} /> {' '}
             </SendButton>
+
 
             <ExitButton
                 onClick={() => history.push('/home')}
@@ -112,7 +110,7 @@ function chatPage({history}) {
                 {' '}
                 <IoIosExit font-size={30} />{' '}
             </ExitButton>
-        </Container>
+        </Container >
     );
 }
 

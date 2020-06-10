@@ -11,7 +11,7 @@ import {
     ProfileImage,
     OuterContent,
     WelcomeText,
-    CardAlive
+    // CardAlive
 } from './styles';
 
 function homePage({ history }) {
