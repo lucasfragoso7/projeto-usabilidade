@@ -1,6 +1,7 @@
 import React from 'react';
 import Sidemenu from '../../components/sidemenu';
 // import ReactCardCarousel from 'react-card-carousel';
+import { IoIosArrowBack } from "react-icons/io";
 
 import {
     Container,
@@ -13,7 +14,7 @@ import {
     CardAlive
 } from './styles';
 
-function homePage() {
+function homePage({ history }) {
 
     return (
         <Container>
@@ -45,6 +46,16 @@ function homePage() {
             </ReactCardCarousel>
         </div> */}
             
+        <IoIosArrowBack onClick={() => history.push('')} 
+                        style={{
+                            background: 'linear-gradient(#679ece)',
+                            color: '#FFF',
+                            fontSize: '50px',
+                            borderRadius: '0 30px 30px 0',
+                            cursor: 'pointer',
+                            position: 'absolute',
+                        }}
+                    />
 
         </Container>
     );

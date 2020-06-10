@@ -19,11 +19,14 @@ import {
     TypeBox,
     InputText,
     SendButton,
+    ExitButton,
 } from './styles';
 
 import Sidemenu from '../../components/sidemenu';
+import { IoIosExit } from "react-icons/io";
 
-function chatPage() {
+
+function chatPage({history}) {
     return (
         <Container>
             <Sidemenu />
@@ -102,6 +105,13 @@ function chatPage() {
                 {' '}
                 <FiSend font-size={30} />{' '}
             </SendButton>
+
+            <ExitButton
+                onClick={() => history.push('/home')}
+            >
+                {' '}
+                <IoIosExit font-size={30} />{' '}
+            </ExitButton>
         </Container>
     );
 }

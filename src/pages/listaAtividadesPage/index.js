@@ -9,8 +9,9 @@ import {
     CardDate,
 } from './styles';
 import Sidemenu from '../../components/sidemenu';
+import { IoIosArrowBack } from "react-icons/io";
 
-function listaAtividadesPage() {
+function listaAtividadesPage({history}) {
     return (
         <Container>
             <Sidemenu />
@@ -65,6 +66,19 @@ function listaAtividadesPage() {
                     })}
                 </div>
             </div>
+
+            <IoIosArrowBack onClick={() => history.push('/home')} 
+                        style={{
+                            background: 'linear-gradient(#679ece)',
+                            color: '#FFF',
+                            fontSize: '50px',
+                            borderRadius: '0 30px 30px 0',
+                            cursor: 'pointer',
+                            position: 'absolute',
+                            left: '1px',
+                            top: '392px'
+                        }}
+                    />
         </Container>
     );
 }

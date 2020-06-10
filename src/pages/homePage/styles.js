@@ -63,4 +63,6 @@ export const WelcomeText = styled.p`
 //     font-size: 12px;
 //     text-transform: uppercase;
 //     border-radius: 10px;
+//     font-weight: bold;
+    
 // `;

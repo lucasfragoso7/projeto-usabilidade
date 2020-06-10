@@ -10,11 +10,25 @@ import {
 } from './styles';
 
 import Sidemenu from '../../components/sidemenu';
+import { IoIosArrowBack } from "react-icons/io";
 
-function planejamentoPage() {
+function planejamentoPage({history}) {
     return (
         <Container>
             <Sidemenu />
+
+            <IoIosArrowBack onClick={() => history.push('/home')} 
+                        style={{
+                            background: 'linear-gradient(#679ece)',
+                            color: '#FFF',
+                            fontSize: '50px',
+                            borderRadius: '0 30px 30px 0',
+                            cursor: 'pointer',
+                            position: 'absolute',
+                            left: '1px',
+                            top: '392px'
+                        }}
+                    />
 
             <MainTitle>
                 <TitleText>PRÓXIMAS AULAS</TitleText>
@@ -101,6 +115,7 @@ function planejamentoPage() {
                     </TableContent>
                 </TableRow>
             </ClassInfoTable>
+
         </Container>
     );
 }

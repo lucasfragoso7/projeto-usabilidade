@@ -86,7 +86,7 @@ export const Link = styled.a`
     color: #f4f8f7;
     transition: 0.2s;
     display: flex;
-    margin-left: 28%;
+    margin-left: 27%;
     margin-top: 6%;
 
     &:hover {
@@ -102,7 +102,7 @@ export const FacebookLink = styled.a`
     color: #f4f8f7;
     transition: 0.2s;
     align-items: center;
-    margin-left: 22%;
+    margin-left: 20%;
 
     &:hover {
         transition: 0.2s;

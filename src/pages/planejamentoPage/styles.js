@@ -49,6 +49,7 @@ export const TableContent = styled.div`
     width: 50%;
     height: 70px;
     padding: 10px;
+    border: 1px solid whitesmoke;
     background-color: ${(props) =>
         props.left ? 'rgb(36, 50, 90, 0.9)' : '#fff'};
 

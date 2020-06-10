@@ -6,8 +6,8 @@ import {
     IoIosBookmarks,
     IoIosJournal,
 } from 'react-icons/io';
-
 import './styles.css';
+
 
 export default function Sidemenu() {
     return (

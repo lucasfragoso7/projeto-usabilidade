@@ -61,7 +61,7 @@ function loginPage({ history }) {
                             color: '#f6f4f0',
                             fontSize: '20px',
                             float: 'right',
-                            marginRight: '11%',
+                            marginRight: '13%',
                         }}
                     />
                 </FacebookLink>

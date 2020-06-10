@@ -166,7 +166,7 @@ export const ExitButton = styled.button`
     position: absolute;
     top: 0;
     right: 0;
-    margin-right: 4.8%;
+    margin-right: 4.9%;
     margin-top: 40.3%;
     width: 10%;
     height: 10%;
