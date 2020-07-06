@@ -32,19 +32,6 @@ function homePage({ history }) {
                 <ProfileImage src="/images/profile2.png" />
             </Showcase>
 
-        {/* <div>
-            <ReactCardCarousel autoplay={true} autoplay_speed={2500}>
-                <CardAlive>
-                Inglês
-                </CardAlive>
-                <CardAlive>
-                Matemática
-                </CardAlive>
-                <CardAlive>
-                Biologia
-                </CardAlive>
-            </ReactCardCarousel>
-        </div> */}
             
         <IoIosArrowBack onClick={() => history.push('')} 
                         style={{
